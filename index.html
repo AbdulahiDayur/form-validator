@@ -29,6 +29,7 @@
             required
             minlength="3"
             maxlength="100"
+            name="name"
           />
         </div>
 
@@ -41,6 +42,7 @@
             placeholder="555-555-5555"
             required
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            name="phone"
           />
         </div>
 
@@ -52,6 +54,7 @@
             id="email"
             placeholder="email@address.com"
             required
+            name="email"
           />
         </div>
 
@@ -63,6 +66,7 @@
             id="website"
             placeholder="https://www.cnn.com/"
             required
+            name="website"
           />
         </div>
 
@@ -88,6 +92,7 @@
             placeholder="Confirm Password"
             required
             pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+            name="password"
           />
         </div>
         <button type="submit">Register</button>
